@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/superslides.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div class="loader">
+        <div class="inner"></div>
+    </div>
+
+    <div id="slides">
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="img/slide1.jpg" alt="" />
+        <img src="img/slide2.jpg" alt="" />
+        <img src="img/slide3.jpg" alt="" />
+        <img src="img/slide4.jpg" alt="" />
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">Mitul Ramwani</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="icons/next.png" class="next"></a>
+        <a href="icons/previous.png" class="prev"></a>
+      </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Mitul</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Stats</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImg" src="img/about.jpg" alt="" />
+          </div>
+          <div class="col-md-7">
+            <h4>My name is Mitul Ramwani</h4>
+            <p>
+              I am an Engineering Leader with extensive exposure to end-to-end
+              Software Development. I not only have the technical chops to roll
+              up sleeves and provide technical leadership to major projects but
+              also build and manage a team of top notch engineers. I live to
+              learn, and can proudly define myself as a "life-long learner".
+            </p>
+            <p>
+              Specialties includes (but not limited to): • Expertise in Software
+              Design and Architecture • Technical width and depth - C++,
+              Javascript, Python, MATLAB, etc. • Solid understanding and
+              experience of using Qt5 framework • Exposure to designing
+              multi-threaded or multi-process applications • Enjoy mentoring
+              junior engineers, love building productive teams • Proven track
+              record of effective Project Management and Leadership skills •
+              Strong background in Computer Vision, Graphics and Imaging
+              libraries • Cherish working in fast-paced environment
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiency in each skill</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="90%">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>C++</h4>
+              <p>Bread and butter!</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="70%">
+                <span class="percent">70</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Used in most web-based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="80%">
+                <span class="percent">80</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Design Patterns</h4>
+              <p>To build Software that lasts</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="67%">
+                <span class="percent">67</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Qt Framework</h4>
+              <p>
+                Deep experience with Qt Widgets and OS intergration services
+              </p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="67%">
+                <span class="percent">67</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Data Structures</h4>
+              <p>Basics!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="stats" class="statsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <img src="icons/experience.png" alt="" />
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">12>12</h2>
+                  <h3>Years of experience</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <img src="icons/experience.png" alt="" />
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">12>12</h2>
+                  <h3>Years of experience</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <img src="icons/experience.png" alt="" />
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">12>12</h2>
+                  <h3>Years of experience</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <img src="icons/experience.png" alt="" />
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">12</h2>
+                  <h3>Years of experience</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">Like what you see?</p>
+        <h2>I would love to hear from you!</h2>
+        <a href="mailTo:mitulecer@gmail.com" class="contactButton"
+          >Get in touch!</a
+        >
+      </div>
+    </div>
+
+    <div id="portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".apps">Apps</a></li>
+              <li><a href="#" data-filter=".me">Me</a></li>
+              <li><a href="#" data-filter=".websites">Websites</a></li>
+            </ul>
+          </div>
+
+          <div class="itemsContainer">
+            <ul class="items">
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="" alt="" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <p>&copy; Copyright Mitul Ramwani 2021</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+
+    <script src="JS/countUp-jquery.js"></script>
+    <script src="JS/jquery.superslides.min.js"></script>
+
+    <script src="JS/countUp.js"></script>
+    <script src="JS/jquery.easypiechart.min.js"></script>
+    <script src="JS/owl.carousel.min.js"></script>
+    <script src="JS/typed.min.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
